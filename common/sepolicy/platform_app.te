@@ -1,3 +1,0 @@
-typeattribute platform_app system_executes_vendor_violators;
-
-r_dir_file(platform_app, vendor_camera_font_file)
