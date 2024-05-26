@@ -10,7 +10,9 @@ android_app_import {
 	dex_preopt: {
 		enabled: false,
 	},
+        preprocessed: true,
 	privileged: true,
+        skip_preprocessed_apk_checks: true,
 }
 
 android_app_import {
@@ -21,5 +23,7 @@ android_app_import {
 	dex_preopt: {
 		enabled: false,
 	},
-	privileged: true,
+        preprocessed: true,
+        privileged: true,
+        skip_preprocessed_apk_checks: true,
 }
